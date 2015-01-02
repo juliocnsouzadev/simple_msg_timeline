@@ -1,0 +1,30 @@
+{
+  "name": "MySimpleTwitter",
+  "version": "0.0.0",
+  "description": "MySimpleTwiiter is a MEAN Stack app that hava some microblogs features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliocnsouzadev/MySimpleTwitter"
+  },
+  "keywords": [
+    "mean",
+    "stack",
+    "js",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "@juliocnsouza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliocnsouzadev/MySimpleTwitter/issues"
+  },
+  "homepage": "https://github.com/juliocnsouzadev/MySimpleTwitter",
+  "dependencies": {
+    "express": "^4.10.6",
+    "jade": "^1.8.2"
+  }
+}
