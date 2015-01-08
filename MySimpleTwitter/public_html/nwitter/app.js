@@ -16,7 +16,7 @@ var routes = require('./routes');
 routes.usuario = require('./routes/usuario');
 
 app.get('/', routes.index);
-app.get('/usuario/login', routes.usuario.login);
+app.get('/user/login', routes.usuario.login);
 
 http.createServer(app).listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
