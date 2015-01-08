@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //rotas
 var routes = require('./routes');
-routes.usuario = require('./routes/usuario');
+routes.usuario = require('./routes/users');
 
 app.get('/', routes.index);
 app.get('/user/login', routes.usuario.login);
